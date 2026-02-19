@@ -198,7 +198,7 @@ with col2:
 with col3:
     add_header = st.checkbox("Ajouter une ligne d’en-tête (souvent NON)", value=False)
 
-uploaded = st.file_uploader("Dépose ton fichier Quadra (TXT)", type=["txt", "asc", "dat", ""])
+uploaded = st.file_uploader("Dépose ton fichier Quadra (TXT)", type=["txt", "asc", "dat"])
 st.divider()
 
 if uploaded:
